@@ -1,6 +1,3 @@
 FROM busybox
-RUN mkdir -p /srv/app-data && chown www-data:www-data /srv/app-data
-VOLUME ["/srv/app-data", "/var/lib/mysql", "/var/lib/postgresql/data"]
-COPY sleep.sh /usr/local/bin/sleep.sh
-RUN chmod +x /usr/local/bin/sleep.sh
-CMD "sleep.sh"
+VOLUME ["/var/www/app/cache", "/var/www/web/uploads", "/var/www/web/media", "/var/www/app/attachment", "/var/lib/mysql", "/var/lib/postgresql/data"]
+CMD ["/bin/sh", "-c", "while : ; do sleep 2; done"]

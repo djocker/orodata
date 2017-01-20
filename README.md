@@ -1,0 +1,3 @@
+# Data Container for Oro Applications
+[![GitHub tag](https://img.shields.io/github/tag/djocker/orodata.svg)](https://hub.docker.com/r/djocker/orocrm/tags/) [![Docker Pulls](https://img.shields.io/docker/pulls/djocker/orodata.svg)](https://hub.docker.com/r/djocker/orocrm/)  
+[![](https://images.microbadger.com/badges/version/djocker/orodata.svg)](https://microbadger.com/images/djocker/orodata "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/djocker/orodata.svg)](https://microbadger.com/images/djocker/orodata "Get your own image badge on microbadger.com")
